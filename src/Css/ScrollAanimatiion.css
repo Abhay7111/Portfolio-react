@@ -249,3 +249,7 @@
           filter: blur(3px);
      }
 }
+
+::-webkit-scrollbar{
+     display: none;
+}
