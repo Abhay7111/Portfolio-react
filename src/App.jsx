@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-full h-fit bg-[#228C68]'>
+    <div className='w-full h-fit bg-[#22448c]'>
       <div className='fixed w-full top-0 z-[99] '>
         <Nav/>
       </div>
