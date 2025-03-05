@@ -13,7 +13,7 @@ function Home() {
           <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-28 md:right-40'></span>
           <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-40 md:right-[42%]'></span>
           <div className='z-10 relative mt-5 pt-10 pb-20 px-2 overflow-x-hidden'>
-               <div className='z-0 w-full opacity-60 h-full bg-transparent absolute top-0 left-0'><Maxdiv/></div>
+               <div className='z-0 w-full opacity-20 h-full bg-transparent absolute top-0 left-0'><Maxdiv/></div>
                     <div className='h-20 flex-col relative items-start justify-start p-1'>
                          <div className='flex items-center justify-start gap-2 md:pl-32'>
                               <span className='w-20 h-[1px] bg-[#449aeb]/20 relative opacity-90'>
@@ -59,17 +59,21 @@ function Home() {
                     <div className='w-full h-fit p-2 mb-8 flex items-center justify-start'>
                          <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>Projects</span>
                          <span className='text-2xl font-semibold px-4 text-center uppercase'>
-                              Project Showcase: from 2022
+                              Project Showcase: 
+                              <span className='hidden sm:block '><br /></span>
+                               <span> </span>from 2022
                          </span>
                     </div>
                     <div className='w-full flex items-center justify-center'>
                          <div className='w-full md:w-[50%] overflow-x-auto flex items-center justify-start overflow-y-hidden py-3'>
                               <div className='relative w-fit max-w- px-5 flex items-center justify-start gap-14 md:gap-32'>
-                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={``} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-sm`}>Ledtvexpert</NavLink></div>
-                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={``} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-sm`}>Sportify</NavLink></div>
-                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={``} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-sm`}>Ledtvexpert</NavLink></div>
-                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={``} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-sm`}>Gaama</NavLink></div>
-                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={``} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-sm`}>Ledtvexpert</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://ledtvexpert.in/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Led .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://abhay7111github.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Git .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://separatedigital.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Sep .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://manasor.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Man .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://abhay7111.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Och .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://biz-growth.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Biz .</NavLink></div>
+                                   <div className=' size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'><OuterBorder/><NavLink to={`https://vanijewellers.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Van .</NavLink></div>
                               </div>
                          </div>
                     </div>
