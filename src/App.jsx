@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom'
 import './Css/ScrollAanimatiion.css'
 import './Css/Border.css'
 import './Css/Font.css'
+import './Css/Animation.css'
 
 function App() {
   const [count, setCount] = useState(0)

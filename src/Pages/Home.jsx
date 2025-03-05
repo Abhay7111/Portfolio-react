@@ -1,9 +1,9 @@
-import React from 'react'
-import Maxdiv from '../Components/Maxdiv'
-import Borderoutlines from '../Components/Borderoutlines'
-import { NavLink } from 'react-router-dom'
-import SocialMediasmall from '../Components/SocialMediasmall'
-import OuterBorder from '../Components/OuterBorder'
+import React from 'react';
+import Maxdiv from '../Components/Maxdiv';
+import Borderoutlines from '../Components/Borderoutlines';
+import { NavLink } from 'react-router-dom';
+import SocialMediasmall from '../Components/SocialMediasmall';
+import OuterBorder from '../Components/OuterBorder';
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
           <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 left-20 md:left-[20%]'></span>
           <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-28 md:right-40'></span>
           <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-40 md:right-[42%]'></span>
-          <div className='z-10 relative mt-5 pt-10 pb-20 px-2 overflow-x-hidden'>
+          <div className='z-10 relative h-[94vh] mt-5 pt-10 pb-20 px-2 overflow-x-hidden'>
                <div className='z-0 w-full opacity-20 h-full bg-transparent absolute top-0 left-0'><Maxdiv/></div>
                     <div className='h-20 flex-col relative items-start justify-start p-1'>
                          <div className='flex items-center justify-start gap-2 md:pl-32'>
@@ -34,7 +34,7 @@ function Home() {
                          </div>
                     </div>
                     <span className='w-full h-[1px] bg-[#449aeb]/20 absolute top-40 right-0 hidden md:block'></span>
-                    <h1 className='text-[8rem] sm:text-[9rem] md:text-[12rem] ubuntu-bold uppercase w-full text-center relative flex items-center justify-center md:gap-3 lg:gap-20'>
+                    <h1 className='text-[8rem] glitch_text sm:text-[9rem] md:text-[12rem] ubuntu-bold uppercase w-full text-center relative flex items-center justify-center md:gap-3 lg:gap-20'>
                          <span className='w-full h-full -z-10 absolute top-0 left-0 md:hidden'><Borderoutlines/></span>
                     <span className='-z-10 hidden md:block w-20 h-[1px] bg-[#449aeb]/40 relative animate-ping'>
                          <span className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-[1px] bg-[#449aeb]/40 rotate-90'></span>
@@ -79,6 +79,7 @@ function Home() {
                     </div>
                </div>
           </div>
+          <div className='w-full h-5 opacity-20'><Maxdiv/></div>
           <div className='w-full min-h-40 flex flex-col items-center justify-start gap-5 mt-20 mb-52'>
                <div className='w-full h-fit p-2 mb-8 flex items-center justify-start '>
                     <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>Expertise</span>
