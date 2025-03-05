@@ -60,7 +60,7 @@ function Home() {
                          <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>Projects</span>
                          <span className='text-2xl font-semibold px-4 text-center uppercase'>
                               Project Showcase: 
-                              <span className='hidden sm:block '><br /></span>
+                              <span className='hidden sm:block h-0 '><br /></span>
                                <span> </span>from 2022
                          </span>
                     </div>
@@ -79,11 +79,31 @@ function Home() {
                     </div>
                </div>
           </div>
+          <div className='w-full min-h-40 flex flex-col items-center justify-start gap-5 mt-20 mb-52'>
+               <div className='w-full h-fit p-2 mb-8 flex items-center justify-start '>
+                    <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>Expertise</span>
+                    <span className='text-2xl font-semibold px-4 text-center uppercase'>
+                         What I learned ?
+                    </span>
+               </div>
+               <div className='w-full sm:w-[80%] md:w-[70%] lg:w-[50%] h-40 transition-all duration-700 overflow-x-auto overflow-y-hidden '>
+                    <div className=' w-fit flex items-center justify-start'>
+                         <NavLink to={`https://react.dev/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-reactjs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://www.javascripttutorial.net/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-javascript-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://github.com/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-github-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://nodejs.org/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-nodejs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://vuejs.org/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-vuejs-line text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://www.npmjs.com/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-npmjs-line text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://www.w3schools.com/html/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-html5-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                         <NavLink to={`https://www.w3schools.com/Css/`} className={``}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-css3-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+                    </div>
+               </div>
+          </div>
           <div className='w-full h-60 flex items-start flex-col gap-3'>
                     <span className='px-2 ml-3 flex items-center justify-start gap-3'>
                          <span className='text-sm font-medium uppercase border-t border-[#449aeb]/80 text-[#449aeb]'>Started</span>
                          <span className='w-13 h-[1px] bg-[#449aeb]/30'></span>
-                         <h3 className='text-2xl font-semibold uppercase'>from 2023 to Now</h3>
+                         <h3 className='text-2xl font-semibold uppercase'>from 2023 - Now</h3>
                     </span>
                <div className='w-96 h-40 md:h-80 ml-4 relative overflow-hidden'>
                     <div className='w-full h-full bg-transparent opacity-95 absolute z-20'><img src="https://i.pinimg.com/736x/40/77/f9/4077f948ebe9e1ac6f150af10ea765f3.jpg" /></div>
