@@ -13,7 +13,7 @@ function Course() {
                     <h1 className=' relative font-medium text-lg mb-2 text-nowrap'>High School</h1>
                     <p className=' relative lowercase first-letter:uppercase lg:text-nowrap font-mono text-sm opacity-80 px-2 '>SHRI HARIVANSH Inter Collage <br /> KODWAT CHOLKHARI S.K.NAGAR</p>
                     <p className=' relative lowercase first-letter:uppercase text-nowrap font-medium text-sm opacity-80'>from 2018 - 2019</p>
-                    <div className='absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
+                    <div className=' cursor-none absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
                          <div className='w-full h-full opacity-10'><Maxdiv/></div>
                     </div>
                </div>
@@ -23,7 +23,7 @@ function Course() {
                     <h1 className=' relative font-medium text-lg mb-2 text-nowrap'>Intermediate</h1>
                     <p className=' relative lowercase first-letter:uppercase lg:text-nowrap font-mono text-sm text-end opacity-80 px-2'>SURYA GROUP OF EDUCTION</p>
                     <p className=' relative lowercase first-letter:uppercase text-nowrap font-medium text-sm opacity-80'>from 2019 - 2020</p>
-                    <div className='absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
+                    <div className=' cursor-none absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
                          <div className='w-full h-full opacity-10'><Maxdiv/></div>
                     </div>
                </div>
@@ -41,7 +41,7 @@ function Course() {
                     <h1 className=' relative font-medium text-lg mb-2 text-nowrap'>BCA</h1>
                     <p className=' relative lowercase first-letter:uppercase lg:text-nowrap font-mono text-sm opacity-80 px-2 '>JAGRAN COLLEGE OF ARTS, SCIENCE <br /> & COMMERCE, JUHI, KANPUR</p>
                     <p className=' relative lowercase first-letter:uppercase text-nowrap font-medium text-sm opacity-80'>from 2020 - 2021</p>
-                    <div className='absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
+                    <div className=' cursor-none absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
                          <div className='w-full h-full opacity-10'><Maxdiv/></div>
                     </div>
                </div>
@@ -51,7 +51,7 @@ function Course() {
                     <h1 className=' relative font-medium text-lg mb-2 text-nowrap'>ADCA</h1>
                     <p className=' relative lowercase first-letter:uppercase lg:text-nowrap font-mono text-sm text-end opacity-80 px-2'>Advance computer center <br /> (sant kabir nagar , uttar pradesh) <br /> <span className='uppercase'>EMAX/EK1234</span></p>
                     <p className=' relative lowercase first-letter:uppercase text-nowrap font-medium text-sm opacity-80'>from 2022 - 2023</p>
-                    <div className='absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
+                    <div className=' cursor-none absolute top-0 left-0 border border-blue-500 hover:border-blue-300 transition-all duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 w-full h-full z-0 rounded-xl overflow-hidden'>
                          <div className='w-full h-full opacity-10'><Maxdiv/></div>
                     </div>
                </div>
