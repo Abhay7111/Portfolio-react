@@ -28,7 +28,7 @@ function Nav() {
       <div onClick={toggleMenu} className='w-8 h-8 bg-blue-400/10 hover:bg-blue-400/20 border border-[#d9d6f8]/20 cursor-pointer transition-all p-1 relative flex items-center justify-center md:hidden'>
       <i className="ri-menu-4-line text-[25px]  active:scale-75 transition-all duration-300"></i>
       {openMenu && (
-        <div className='w-[60vw] min-h-fit bg-[#22448C] hover:border-[#d9d6f8] absolute top-14 right-6'>
+        <div className='w-[60vw] min-h-fit bg-[#22448C] hover:border-[#d9d6f8] absolute top-14 right-6 transition-all duration-200 shadow-xl shadow-transparent hover:shadow-blue-500'>
           <div className='flex flex-col gap-2 p-2 relative w-full z-10'>
             <NavLink to={'/'} className={({isActive}) => ` ${isActive? ' bg-[#3453a8] border_left font-medium' : 'hover:text-[#d9d6f8] hover:bg-[#d9d6f8]/30 overflow-hidden relative'} p-1 px-2 w-full z-10 transition-all`}> Home</NavLink>
             <NavLink to={'/blog'} className={({isActive}) => ` ${isActive? ' bg-[#3453a8] border_left font-medium' : 'hover:text-[#d9d6f8] hover:bg-[#d9d6f8]/30 overflow-hidden relative'} p-1 px-2 w-full z-10 transition-all`}> Blog</NavLink>

@@ -55,7 +55,7 @@ function Home() {
         </div>
         <SocialMediasmall />
       </div>
-      <div className='w-full h-96 py-10 px-3'>
+      <div className='w-full h-fit py-10 px-3 mb-10'>
         <div className='relative w-full h-fit'>
           <div className='w-full h-fit p-2 mb-8 flex items-center justify-start'>
             <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>Projects</span>
@@ -66,61 +66,61 @@ function Home() {
             </span>
           </div>
           <div className='w-full flex items-center justify-center'>
-            <div className='w-full md:w-[50%] overflow-x-auto flex items-center justify-start overflow-y-hidden py-3'>
-              <div className='relative w-fit max-w- px-5 flex items-center justify-start gap-14 md:gap-32'>
+            <div className='w-full md:w-[50%] overflow-x-auto md:overflow-x-visible flex items-center justify-start py-3'>
+              <div className='relative w-fit max-w- px-5 flex items-center justify-start md:justify-center md:flex-wrap gap-14 md:gap-0'>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://ledtvexpert.in/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Led .</NavLink>
+                  <NavLink to={`https://ledtvexpert.in/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Led .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://abhay7111github.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Git .</NavLink>
+                  <NavLink to={`https://abhay7111github.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Git .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://separatedigital.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Sep .</NavLink>
+                  <NavLink to={`https://separatedigital.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Sep .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://manasor.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Man .</NavLink>
+                  <NavLink to={`https://manasor.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Man .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://abhay7111.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Och .</NavLink>
+                  <NavLink to={`https://abhay7111.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Och .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://biz-growth.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Biz .</NavLink>
+                  <NavLink to={`https://biz-growth.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Biz .</NavLink>
                 </div>
                 <div className='size-20 md:size-32 bg-[#449aeb]/10 relative flex items-center justify-center'>
                   <OuterBorder />
-                  <NavLink to={`https://vanijewellers.netlify.app/`} target='_blank' className={`relative w-full h-full flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Van .</NavLink>
+                  <NavLink to={`https://vanijewellers.netlify.app/`} target='_blank' className={`relative w-full h-full duration-200 shadow-2xl shadow-transparent hover:shadow-blue-500 flex items-center justify-center hover:bg-[#449aeb]/20 transition-all text-xl uppercase font-semibold`}>Van .</NavLink>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='w-full h-5 opacity-20'><Maxdiv /></div>
+      <div className='w-full h-5 opacity-20 mb-10'><Maxdiv /></div>
       <div className='w-full min-h-40 flex flex-col items-center justify-start gap-5 mt-10'>
         <div className='w-full h-fit p-2 mb-8 flex items-center justify-start'>
           <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>technologies</span>
           <span className='text-2xl font-semibold px-4 text-center uppercase'>What I’ve Learned So Far</span>
         </div>
-        <div className='w-full sm:w-[80%] md:w-[70%] lg:w-[50%] h-40 transition-all duration-700 overflow-x-auto overflow-y-hidden'>
-          <div className='w-fit flex items-center justify-start'>
-            <NavLink to={`https://react.dev/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-reactjs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://www.javascripttutorial.net/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-javascript-fill text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://github.com/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-github-fill text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://nodejs.org/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-nodejs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://vuejs.org/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-vuejs-line text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://www.npmjs.com/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-npmjs-line text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://www.w3schools.com/html/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-html5-fill text-[#449aeb] text-4xl'></i></div></NavLink>
-            <NavLink to={`https://www.w3schools.com/Css/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-css3-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+        <div className='w-full sm:w-[80%] md:w-[80%] lg:w-[90%] md:flex md:items-center md:justify-center h-fit transition-all duration-700 pb-20 overflow-x-scroll md:overflow-x-visible '>
+          <div className='w-fit flex items-center justify-start md:justify-center md:flex-wrap'>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://react.dev/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-reactjs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://www.javascripttutorial.net/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-javascript-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://github.com/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-github-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://nodejs.org/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-nodejs-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://vuejs.org/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-vuejs-line text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://www.npmjs.com/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-npmjs-line text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://www.w3schools.com/html/`}><div className='w-40 h-40 border-t border-l border-b bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-html5-fill text-[#449aeb] text-4xl'></i></div></NavLink>
+            <NavLink className={` shadow-2xl shadow-transparent hover:shadow-blue-500 transition-all duration-200`} to={`https://www.w3schools.com/Css/`}><div className='w-40 h-40 border-t border-l border-b md:border-r bg-[#449aeb]/20 hover:bg-[#449aeb]/40 transition-all flex items-center justify-center active:scale-95 active:border-r border-[#449aeb]/50'><i className='ri-css3-fill text-[#449aeb] text-4xl'></i></div></NavLink>
           </div>
         </div>
       </div>
-      <h1 className='text-5xl font-medium text-center mt-40 uppercase relative p-4'>Where I Learned</h1>
+      <h1 className='text-5xl font-medium text-center mt-10 uppercase relative p-4'>Where I Learned</h1>
       <div className='w-full h-fit flex items-center justify-center mt-14 mb-20'>
         <Course/>
       </div>
