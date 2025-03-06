@@ -4,16 +4,17 @@ import Borderoutlines from '../Components/Borderoutlines';
 import { NavLink } from 'react-router-dom';
 import SocialMediasmall from '../Components/SocialMediasmall';
 import OuterBorder from '../Components/OuterBorder';
+import Course from '../Components/Course';
 
 function Home() {
   return (
     <div className='w-full h-fit relative text-white pb-3'>
       <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 left-40 md:left-10'></span>
-      <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 left-20 md:left-[20%]'></span>
-      <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-28 md:right-40'></span>
+      <span className='w-[1px] h-full bg-[#449aeb]/10 absolute top-0 left-20 md:left-[20%]'></span>
+      <span className='w-[1px] h-full bg-[#449aeb]/10 absolute top-0 right-28 md:right-40'></span>
       <span className='w-[1px] h-full hidden md:block bg-[#449aeb]/10 absolute top-0 right-40 md:right-[42%]'></span>
       <div className='z-10 relative h-[94vh] mt-5 pt-10 pb-20 px-2 overflow-x-hidden'>
-        <div className='z-0 w-full opacity-20 h-full bg-transparent absolute top-0 left-0'><Maxdiv /></div>
+        <div className='z-0 w-full opacity-10 h-full bg-transparent absolute top-0 left-0'><Maxdiv /></div>
         <div className='h-20 flex-col relative items-start justify-start p-1'>
           <div className='flex items-center justify-start gap-2 md:pl-32'>
             <span className='w-20 h-[1px] bg-[#449aeb]/20 relative opacity-90'>
@@ -101,7 +102,7 @@ function Home() {
         </div>
       </div>
       <div className='w-full h-5 opacity-20'><Maxdiv /></div>
-      <div className='w-full min-h-40 flex flex-col items-center justify-start gap-5 mt-20 mb-52'>
+      <div className='w-full min-h-40 flex flex-col items-center justify-start gap-5 mt-10'>
         <div className='w-full h-fit p-2 mb-8 flex items-center justify-start'>
           <span className='border-t border-[#449aeb] text-[#449aeb] uppercase text-sm font-medium mx-2'>technologies</span>
           <span className='text-2xl font-semibold px-4 text-center uppercase'>What I’ve Learned So Far</span>
@@ -119,16 +120,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='w-full h-60 flex items-start flex-col gap-3'>
-        <span className='px-2 ml-3 flex items-center justify-start gap-3'>
-          <span className='text-sm font-medium uppercase border-t border-[#449aeb]/80 text-[#449aeb]'>Started</span>
-          <span className='w-13 h-[1px] bg-[#449aeb]/30'></span>
-          <h3 className='text-2xl font-semibold uppercase'>from 2023 - Now</h3>
-        </span>
-        <div className='w-96 h-40 md:h-80 ml-4 relative overflow-hidden'>
-          <div className='w-full h-full bg-transparent opacity-95 absolute z-20'><img src="https://i.pinimg.com/736x/40/77/f9/4077f948ebe9e1ac6f150af10ea765f3.jpg" alt="Background" /></div>
-          <Maxdiv />
-        </div>
+      <h1 className='text-5xl font-medium text-center mt-40 uppercase relative p-4'>Where I Learned</h1>
+      <div className='w-full h-fit flex items-center justify-center mt-14 mb-20'>
+        <Course/>
       </div>
     </div>
   )
