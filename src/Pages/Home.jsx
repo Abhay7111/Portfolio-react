@@ -6,6 +6,7 @@ import SocialMediasmall from '../Components/SocialMediasmall';
 import OuterBorder from '../Components/OuterBorder';
 import Course from '../Components/Course';
 import Lines_Animated from '../Components/Lines_Animated';
+import Image from '../Components/Image';
 
 function Home() {
   return (
@@ -124,6 +125,10 @@ function Home() {
       <h1 className='text-5xl font-medium text-center mt-10 uppercase relative p-4'>Where I Learned</h1>
       <div className='w-full h-fit flex items-center justify-center mt-14 mb-20'>
         <Course/>
+      </div>
+      <div className='flex flex-col items-center justify-center'>
+        <h1 className='pt-10 pb-20 text-5xl font-medium uppercase'>Project Showcase</h1>
+        <Image/>
       </div>
     </div>
   )

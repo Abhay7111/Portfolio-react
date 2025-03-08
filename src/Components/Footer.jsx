@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Footer() {
   return (
     <div className='w-full h-fit border-t border-blue-400/10'>
-     <div className=' w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
+     <div className=' w-full h-fit grid grid-cols-1 sm:grid-cols-2'>
           <div className='w-full h-32 border-b border-blue-400/10 flex items-center justify-center'>
           <NavLink to={'/'} className={`text-xl font-bold px-2`}>Abhay7111</NavLink>
           </div>
