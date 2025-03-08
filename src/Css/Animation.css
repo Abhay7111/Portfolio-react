@@ -1,0 +1,52 @@
+.div_1px {
+  position: absolute;
+  background-color: red;
+  width: 20px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  animation: div_1px 10s infinite;
+}
+
+.div_1px:nth-child(even) {
+  animation: div_1px_1 10s infinite;
+}
+
+@keyframes div_1px {
+  0%, 100% {
+    left: 0;
+  }
+  50% {
+    left: 99%;
+  }
+}
+
+@keyframes div_1px_1 {
+  0%, 100% {
+    left: 99%;
+  }
+  50% {
+    left: 0;
+  }
+}
+
+body {
+  background: gray;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  position: relative;
+
+  --shared-border-size: 2px;
+  --shared-border-type: solid;
+  --shared-border-color: white;
+  --shared-border: var(--shared-border-size) var(--shared-border-type) var(--shared-border-color);
+}

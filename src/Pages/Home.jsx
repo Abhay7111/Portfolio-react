@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import SocialMediasmall from '../Components/SocialMediasmall';
 import OuterBorder from '../Components/OuterBorder';
 import Course from '../Components/Course';
+import Lines_Animated from '../Components/Lines_Animated';
 
 function Home() {
   return (

@@ -7,6 +7,7 @@ import './Css/ScrollAanimatiion.css'
 import './Css/Border.css'
 import './Css/Font.css'
 import './Css/Animation.css'
+import Footer from './Components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       </div>
       <div className='h-12 w-full bg-transparent'></div>
       <Outlet/>
+      <Footer/>
     </div>
   )
 }
