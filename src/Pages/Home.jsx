@@ -126,7 +126,7 @@ function Home() {
       <div className='w-full h-fit flex items-center justify-center mt-14 mb-20'>
         <Course/>
       </div>
-      <div className='flex flex-col items-center justify-center mb-60'>
+      <div className='flex flex-col items-center justify-center mb-10 overflow-hidden pb-20'>
         <h1 className='pt-10 pb-20 text-5xl font-medium uppercase'>Project Showcase</h1>
         <Image/>
       </div>
